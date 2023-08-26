@@ -1,63 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telefonitis</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <div class="menunav">
-            <a href="#" class="logo">Logo</a>
-            <input type="checkbox" id="menu">
-            <label for="menu"> 2
-                <img src="" class="menu-icon" alt="logo" width="200px">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#">Catalogo</a></li>
-                    <li><a href="#">Promociones</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Iniciar Sesion</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <h1>LA MEJOR CALIDAD  Y AL MEJOR PRECIO EN REFACCIONES DE CELULARES </h1>
-        <p>Si buscas refacciones para tu celular no dudes en comprar con nosotros, tenemos las mejor calidad y el mejor precio del mercado, contamos con mayoreo y menudo descuento especial a tecnicos </p>
-        <form action="#">
-            <label for="correo"></label>
-            <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo">
-            <button type="submit">ENVIAR</button>
-        </form>
-    </main>
-    <section>
-            <h2>Catalogo de refacciones</h2>
-            <a href="#">PANTALLAS / DISPLAY</a>
-            <a href="#">BATERIAS</a>
-            <a href="#">TAPAS</a>
-            <a href="#">BANDEJAS SIM</a>
-            <a href="#">SUNPLACAS</a>
-            <a href="#">BOCINAS</a>
-        </section>
-        <Section>
-            <h3>Compraste tu refaccion pero no tienes quien te la instale, no te preocupes  aqui encontraras a los mejores taller de reparacion de celulares<h3>
-                <img src="" alt="wiltech">
-                <img src="" alt="servicell">
-                <img src="" alt="g mobil lab">
-        </Section>
-    <footer>
-        <h3>SOPORTE</h3>
-        <a href="#">Cotizaciones</a>
-        <a href="">Contacto</a>
-        <h3>NOSOTROS</h3>
-        <a href="#">About</a>
-        <a href="#">Blog</a>
-        <h3>LEGAL</h3>
-        <a href="#">Privacidad</a>
-        <a href="#">Terminos</a>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport"content="width=device-width, initial-scale=1.0">
+		<title>TELEFONITIS</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<div class="contenedor-barra">
+				<div class="contenedor barra">
+					<div class="contenedor-logo">
+						<h1 class="logo"><a href="/">TELEFONITIS</a></h1>
+					</div>
+                    <div class="contenedor-login">
+						<div class="contenido-login">
+							<a href="#" class="text">INICIAR SESION</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="contenedor-barra2">
+				<nav class="barra2 contenedor">
+					<ul class="menu">
+						<li><a href="#">Catalogo</a></li>
+						<li><a href="#">Contacto</a></li>
+						<li><a href="#">Promociones</a></li>
+					</ul>
+
+					<form class="busqueda-form">
+						<input type="search" placeholder="BUSCAR" />
+						<button class="boton-busqueda" type="reset"><i>&#187;</i>
+						</button>
+					</form>
+				</nav>
+			</div>
+		</header>
+
+		<section class="jumbotron">
+			<div class="principio">
+            	<h3>LA MEJOR CALIDAD EN REFACCIONES DE CELULARES </h3>
+            	<p>Si buscas refacciones para tu celular no dudes en comprar con nosotros, contamos con mayoreo y menudo descuento especial a tecnicos.<br>Si quieres una cotizacion ingresa tu correo </p>
+				<form class="correo">
+					<label for="correo"></label>
+					<input type="email"placeholder="Ingresa tu correo"/>
+					<button class="enviar">ENVIAR</button>
+				</form>
+        	</div>
+		</section>
+		<main class="main-contenido">
+			<section class="Catalogopiezas">
+				<h2 class="titulo1">Catalogo de Refacciones</h2>
+				<div class="contenido-catalogo">
+					<div class="piezas pantalla">
+						<p>DISPLAY</p>
+						<span>Ver más</span>
+					</div>
+					<div class="piezas bateria">
+						<p>BATERIAS</p>
+						<span>Ver más</span>
+					</div>
+					<div class="piezas tapa">
+						<p>TAPA</p>
+						<span>Ver más</span>
+					</div>
+					<div class="piezas sim">
+						<p>BANDEJAS</p>
+						<span>Ver más</span>
+					</div>
+					<div class="piezas placa">
+						<p>SUBPLACAS</p>
+						<span>Ver más</span>
+					</div>
+					<div class="piezas bocina">
+						<p>BOCINAS</p>
+						<span>Ver más</span>
+					</div>
+				</div>
+			</section>
+			<section class="contenedor taller">
+				<h2 class="titulo1">Compraste tu refaccion pero no tienes quien te la instale, no te preocupes  aqui encontraras a los mejores taller de reparacion de celulares</h2>
+
+				<div class="contenedor-taller">
+					<div class="talleres">
+						<div class="contenedor-img">
+							<img src="img/wiltech.jpg" alt="servicell" />	
+						</div>
+						<div class="contenido-taller">
+							<h3>WILTECH</h3>
+							<p>
+								Es el centro de reparación #1 en el mundo, con más de 11 años de experiencia en reparaciones electrónicas, más 20 centros de reparación en las principales ciudades, desde México hasta Argentina, cuenta con el laboratorio de electrónica más equipado y avanzado.
+							</p>
+							<div class="botonleer">Leer más</div>
+						</div>
+					</div>
+					<div class="talleres">
+						<div class="contenedor-img">
+							<img src="img/servicell.jpg" alt="servicell" />	
+						</div>
+						<div class="contenido-taller">
+							<h3>SERVICELL</h3>
+							<p>
+								Contamos con más de 15 años de experiencia en la reparación de dispositivos móviles y en reparación de dispositivos Apple a nivel componente.<br>Si nadie lo puede reparar, nosotros probablemente si podremos.
+							</p>
+							<div class="botonleer">Leer más</div>
+						</div>
+					</div>
+					<div class="talleres">
+						<div class="contenedor-img">
+							<img src="img/place.png" alt="place lab" />
+						</div>
+						<div class="contenido-taller">
+							<h3>IFIX PLACE</h3>
+							<p>
+								En iFix Place estamos comprometidos con la calidad. Disponemos de técnicos, las herramientas, repuestos y los conocimientos técnicos necesarios para reparar cualquier móvil, de cualquier marca,  por el precio adecuado y con garantía de 3 meses. 
+							</p>
+							<div class="botonleer">Leer más</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="contenedor contenedor-footer">
+				<div class="menu-footer">
+					<div class="soporte">
+						<p class="titulo-footer">AYUDA</p>
+						<ul>
+							<li><a href="#">Cotizar</a></li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
+					</div>
+					<div class="acerca">
+						<p class="titulo-footer">ABOUT</p>
+						<ul>
+							<li><a href="#">Ubicacion</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+					<div class="politicas">
+						<p class="titulo-footer">LEGAL</p>
+						<ul>
+							<li><a href="#">Politicas</a></li>
+							<li><a href="#">Términos </a></li>
+						</ul>
+					</div>
+					<div class="redessociales">
+						<p class="titulo-footer">REDES</p>
+						<ul>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">instagram</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+				<div class="copyright">
+					<p>
+						Derechos reservados &copy; 2023
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
